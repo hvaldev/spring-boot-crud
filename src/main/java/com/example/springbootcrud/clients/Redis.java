@@ -17,7 +17,7 @@ public class Redis {
 
     // Should be called exactly once during App Startup logic.
     public static void initializeSettings(String host, int port, String password, int connectTimeout, int operationTimeout) {
-        Redis.host = host;
+        Redis.host = host;//host
         Redis.port = port;
         Redis.password = password;
         Redis.connectTimeout = connectTimeout;
